@@ -6,4 +6,6 @@ In the program, first, you are given a block map. (1 denotes there is an obstacl
 
 Then, input starting and ending point coordinates. (pick two points without obstacles from the given map)
 
-Input method index to calculate the heuristic. (0 denotes using euclidean metric, 1 denotes using Manhattan distance, otherwise using a bad heuristic which can be longer than the real distance between current point and ending point)
+Input method index used when calculating the heuristic. (0 denotes using euclidean metric, 1 denotes using Manhattan distance, otherwise using a bad heuristic which can be longer than the real distance between current point and ending point)
+
+Then the result path(2) will be printed out.
